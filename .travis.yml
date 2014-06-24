@@ -10,4 +10,4 @@ deploy:
   file: target/itemfinder-v*.jar
   on:
     tags: true
-    all_branches: false
+    all_branches: true
