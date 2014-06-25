@@ -5,6 +5,5 @@ deploy:
   api_key:
     secure: K5mGP4Kp92dEyD3GY8NFwx8IOzZkpQH8F29HATqXPOwGlrLj4/J/bCTMFMM0ESZo1Lzz2ylfyhFZvWzFk5njw8N7unbXv0IlTcAsHD9crlGRKeshab1vYYEZ+JrINgFTjgTO0xpSrLc9ZDnjRVR91A+WjqNqOZ/offPkaD3AIR8=
   file: target/itemfinder-v0.2.1.jar
-  skip_cleanup: true
   on:
     repo: Yogu/itemfinder-travis
