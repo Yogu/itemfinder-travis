@@ -1,5 +1,5 @@
 language: java
-#script: mvn install
+script: mvn install
 
 deploy:
   provider: releases
