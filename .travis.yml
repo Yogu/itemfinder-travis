@@ -1,13 +1,9 @@
 language: java
 script: mvn install
-
 deploy:
   provider: releases
-  api-key: 
-    - secure: "bgtA4t4YcQaVpC2+PgGA+BnYLsVUKviOXkIYHz9kEBXGoP8TU/uN7iCl19lpPWdagFwL5FPVqWDQYvHjsNrBzafhAUtJB0ZqYZZY+9ZqBz1u/sIBefck9uKdCeDUyjIHTowbv/8TBB5uhsP1N8v3M5BQ+Lk5DYnofwz30g/QhbQ="
-  skip_cleanup: true
+  api_key:
+    secure: K5mGP4Kp92dEyD3GY8NFwx8IOzZkpQH8F29HATqXPOwGlrLj4/J/bCTMFMM0ESZo1Lzz2ylfyhFZvWzFk5njw8N7unbXv0IlTcAsHD9crlGRKeshab1vYYEZ+JrINgFTjgTO0xpSrLc9ZDnjRVR91A+WjqNqOZ/offPkaD3AIR8=
   file: target/itemfinder-v0.2.1.jar
   on:
-    tags: true
-    all_branches: true
-
+    repo: Yogu/itemfinder-travis
