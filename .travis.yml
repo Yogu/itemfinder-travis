@@ -3,7 +3,8 @@ script: mvn install
 
 deploy:
   provider: releases
-  api-key: "bgtA4t4YcQaVpC2+PgGA+BnYLsVUKviOXkIYHz9kEBXGoP8TU/uN7iCl19lpPWdagFwL5FPVqWDQYvHjsNrBzafhAUtJB0ZqYZZY+9ZqBz1u/sIBefck9uKdCeDUyjIHTowbv/8TBB5uhsP1N8v3M5BQ+Lk5DYnofwz30g/QhbQ="
+  api-key: 
+    - secure: "bgtA4t4YcQaVpC2+PgGA+BnYLsVUKviOXkIYHz9kEBXGoP8TU/uN7iCl19lpPWdagFwL5FPVqWDQYvHjsNrBzafhAUtJB0ZqYZZY+9ZqBz1u/sIBefck9uKdCeDUyjIHTowbv/8TBB5uhsP1N8v3M5BQ+Lk5DYnofwz30g/QhbQ="
   skip_cleanup: true
   file: target/itemfinder-v0.2.1.jar
   on:
